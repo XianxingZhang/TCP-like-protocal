@@ -1,0 +1,10 @@
+timer.c: This is for implementing the timer process by using delta list. It will wait for instruction from driver.c to change delta list and it will exit after all Timers expired.
+
+driver.c: This is for giving add/delete request to timer process to change delta list.
+
+How to use:
+	1. Compile the program using command "make".
+	2. Start the timer process using "timer"
+	3. Start the driver process using "driver"
+
+	To give a different change to delta list, change the driver.c program and then compile and re-run it .

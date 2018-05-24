@@ -1,0 +1,12 @@
+server.c: This is for creating a server process that listens for a client, then after accepting a connection, receives a file from the client.
+
+client.c: This is for creating a client process that attempts to connect to a server process, then transfers a file to it.
+
+How to use:
+
+	1. Compile the program using the make command on the client and server machines.
+	2. Start the server using the following format:
+		ftps <local-port>
+
+	3. Start the client using the following format:
+		ftpc <remote-IP> <remote-port> <local-file-to-transfer>

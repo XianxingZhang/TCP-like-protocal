@@ -1,0 +1,17 @@
+  ==================================
+  [c5462aa lab1 <C-version1-Xianxing>]
+  ==================================
+
+  1) [version1] is used to read a binary file and print the size of the file as well as the number of specific string appeared in the file.
+
+  2) Enter the path of [version1], using command "make" to compiler [version1].
+
+  3) use command "./count<input-filename><search-string><output-filename>" to run the   program, remember to put the input file under the same path with [version1].And if the output file exists, the program would overwrite it; if not, one will be created.
+
+  ===================================
+  [c5462aa lab1 <C-version2-Xianxing>
+  ===================================
+
+  update:
+  1) set the limitation: the name of inputfile and outputfile as well as the length of searching string should be 20 bytes or less
+  2) check the legality of opening inputfile and writing or creating outputfile.
